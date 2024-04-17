@@ -18,11 +18,11 @@ export default {
   retries: 1,
   reporter: 'html',
   use: {
-    baseURL: 'http://booking.com/',
+    baseURL: 'https://www.bestbuy.com/',
     screenshot: 'on',
     video: 'on',
     timezoneId: 'America/New_York',
   },
   workers: 4,
-  timeout: 30000,
+  timeout: 1200000,
 };
